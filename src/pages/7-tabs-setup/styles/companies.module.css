@@ -1,0 +1,29 @@
+.companiesContainer{
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.body{
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, .08);
+}
+
+.buttonCompany{
+    border: none;
+    border-left: 3px solid transparent;
+    background-color: transparent;
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+}
+
+.buttonCompany.active{
+    border-left-color: rgb(15, 100, 149);
+    color:  rgb(15, 100, 149);
+}

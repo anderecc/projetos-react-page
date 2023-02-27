@@ -1,0 +1,108 @@
+.headerContainer{
+    width: 100%;
+    position: relative;
+}
+
+.headerContent{
+    display: flex;
+    z-index: 3;
+    box-shadow: 5px 5px 8px black;
+    position: relative;
+    background-color: white;
+    justify-content: space-between;
+    padding: 1.5rem .5rem;
+    align-items: center;
+}
+
+.headerContainer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, .7);
+    user-select: none;
+}
+
+.logo span {
+    color: rgba(19, 71, 149, 0.781);
+}
+
+.linksContainer li a{
+    font-size: 1.3rem;
+    color: rgb(46, 46, 46);
+    margin: 0 .5rem;
+    padding: .2rem .5rem;
+    transition: all .3s;
+    border-bottom: 2px solid transparent;
+}
+
+.linksContainer li:hover a{
+    color: rgb(0, 0, 0);
+    border-bottom-color: black;
+}
+
+.socialContainer li a{
+    transition: all .3s;
+    font-size: 1.3rem;
+    color: rgba(19, 71, 149, 0.781);
+    margin: 0 .5rem;
+    padding: .2rem .5rem;
+}
+
+.socialContainer li:hover a {
+    color: rgba(38, 139, 161, 0.781);
+
+}
+
+.linksContainer, .socialContainer{
+    flex-wrap: wrap;
+    transition: all .7s;
+    row-gap: .5rem;
+
+}
+
+.button{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+.menuOpen, .menuClose{
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 0;
+}
+
+.menuOpen .socialContainer li a, .menuClose .socialContainer li a{
+    border: none;
+}
+
+.menuOpen li, .menuClose li{
+    margin: 1rem 0;
+}
+
+.menuOpen{   
+    transform: translateY(0);
+}
+.menuClose{
+    transform: translateY(-100vh);
+}
+
+@media (max-width: 720px){
+    .logo{
+        font-size: 2rem;
+    }
+    
+    .headerContent{
+        
+        flex-wrap: wrap;
+    }
+}
+

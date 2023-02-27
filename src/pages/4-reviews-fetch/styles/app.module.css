@@ -1,0 +1,39 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.title::before{
+    content: '';
+    border: 3px solid lightskyblue;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
