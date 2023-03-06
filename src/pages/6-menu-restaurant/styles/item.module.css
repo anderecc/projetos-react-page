@@ -58,6 +58,6 @@ hr{
 
 @media (max-width: 750px) {
     .itemContainer{
-        width: 80%;
+        width: 100%;
     }
 }

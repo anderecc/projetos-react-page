@@ -8,6 +8,7 @@
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 2.3rem;
+    text-align: center;
 }
 
 .company{
@@ -51,4 +52,14 @@
     width: 20%;
     margin: 0 auto;
     font-weight: bold;
+}
+
+@media (max-width: 720px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

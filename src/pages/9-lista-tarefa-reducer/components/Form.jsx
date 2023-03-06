@@ -7,7 +7,7 @@ let Form = () => {
         useContext(AppContext);
 
     return (
-        <form>
+        <form className={styles.formContainer}>
             <input
                 className={styles.input}
                 type="text"

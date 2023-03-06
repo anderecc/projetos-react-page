@@ -43,3 +43,11 @@
 .button:active{
     transform: scale(.98);
 }
+.formContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center
+    ;
+    gap: 1rem;
+}

@@ -27,3 +27,10 @@
     border-left-color: rgb(15, 100, 149);
     color:  rgb(15, 100, 149);
 }
+
+@media (max-width: 720px){
+    .companiesContainer{
+        width: 100%;
+        flex-direction: row;
+    }
+}
