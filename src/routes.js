@@ -10,6 +10,8 @@ import LoremGenerator from './pages/8-lorem-generator/App';
 import ListaTarefaReducer from './pages/9-lista-tarefa-reducer/App';
 import NavBar from './pages/10-navbar/App';
 import Calculator from './pages/11-calculator/App';
+import Sidebar from './pages/12-sidebar/App';
+import StrapiMenu from './pages/13-strapi-menu/App';
 
 let routes = [
     {
@@ -82,6 +84,18 @@ let routes = [
         path: '/11-calculator',
         image: './images/projetos/11-calculator.png',
         element: <Calculator></Calculator>,
+    },
+    {
+        id: 12,
+        path: '/12-sidebar',
+        image: './images/projetos/12-sidebar.png',
+        element: <Sidebar></Sidebar>,
+    },
+    {
+        id: 13,
+        path: '/13-strapi-menu',
+        image: './images/projetos/13-strapi-menu.png',
+        element: <StrapiMenu></StrapiMenu>,
     },
 ];
 
