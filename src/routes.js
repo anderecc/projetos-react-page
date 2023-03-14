@@ -12,6 +12,8 @@ import NavBar from './pages/10-navbar/App';
 import Calculator from './pages/11-calculator/App';
 import Sidebar from './pages/12-sidebar/App';
 import StrapiMenu from './pages/13-strapi-menu/App';
+import Cocktails from './pages/14-cocktails/App';
+import Cocktail from './pages/14-cocktails/pages/Cocktail';
 
 let routes = [
     {
@@ -97,6 +99,13 @@ let routes = [
         image: './images/projetos/13-strapi-menu.png',
         element: <StrapiMenu></StrapiMenu>,
     },
+    {
+        id: 14,
+        path: '/14-cocktails',
+        image: './images/projetos/14-cocktails.png',
+        element: <Cocktails></Cocktails>,
+    },
+    { path: 'cocktail/:drinkId', element: <Cocktail /> },
 ];
 
 export default routes;
