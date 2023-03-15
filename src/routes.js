@@ -14,6 +14,8 @@ import Sidebar from './pages/12-sidebar/App';
 import StrapiMenu from './pages/13-strapi-menu/App';
 import Cocktails from './pages/14-cocktails/App';
 import Cocktail from './pages/14-cocktails/pages/Cocktail';
+import Movies from './pages/15-movies/App';
+import Movie from './pages/15-movies/Pages/Movie';
 
 let routes = [
     {
@@ -106,6 +108,13 @@ let routes = [
         element: <Cocktails></Cocktails>,
     },
     { path: 'cocktail/:drinkId', element: <Cocktail /> },
+    {
+        id: 15,
+        path: '/15-movies',
+        image: './images/projetos/15-movies.png',
+        element: <Movies></Movies>,
+    },
+    { path: 'movie/:movieId', element: <Movie /> },
 ];
 
 export default routes;
