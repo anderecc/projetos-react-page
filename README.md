@@ -1,1 +1,3 @@
-# Esse projeto é onde eu coloco meus outros projetos com React para fazer o deploy e conseguir acessa-los
+# Projeto para deploy de outros projetos com React
+
+Projeto feito em curso.
